@@ -39,7 +39,7 @@ const Navbar = (props: Props) => {
             return (
               <li key={index}>
                 <Link
-                  className="capitalize font-semibold text-lg tracking-wide hover:text-stone-700 duration-300 hover:underline decoration-stone-500 hover:underline-offset-8"
+                  className="capitalize font-semibold text-lg tracking-wide hover:text-stone-700 duration-300"
                   href={path}
                   scroll={true}
                   onClick={() => setOpen(false)}
