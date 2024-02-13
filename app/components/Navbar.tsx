@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { FaBars } from "react-icons/fa";
 const navItems = [
@@ -12,7 +12,17 @@ type Props = {};
 
 const Navbar = (props: Props) => {
   const [open, setOpen] = useState(false);
+  useEffect(() => {
+    if (open) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflowY = "auto";
+    }
 
+    return () => {
+      document.body.style.overflowY = "auto";
+    };
+  }, [open]);
   return (
     <div className="bg-stone-300 sticky top-0 z-50">
       <nav className="align-element flex flex-col md:flex-row  items-center justify-between">
