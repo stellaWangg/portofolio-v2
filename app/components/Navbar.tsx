@@ -8,9 +8,8 @@ const navItems = [
   { text: "Skills", path: "#skills" },
   { text: "Contact", path: "#contact" },
 ];
-type Props = {};
 
-const Navbar = (props: Props) => {
+const Navbar = () => {
   const [open, setOpen] = useState(false);
   useEffect(() => {
     if (open) {
