@@ -12,7 +12,7 @@ import Title from "./Title";
 
 const Skills = () => {
   return (
-    <section className="my-30 align-element py-20" id="skills">
+    <section id="skills" className="my-30 align-element py-20">
       <Title title="Skills" />
       <div className="mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify-center text-2xl font-medium text-neutral-900 gap-16">
         <div className="flex flex-col items-center gap-1 text-center">
