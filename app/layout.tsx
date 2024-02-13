@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://stellawang.netlify.app/"),
   openGraph: {
     images: "./heroImg.png",
     type: "website",
