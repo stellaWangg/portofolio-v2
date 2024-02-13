@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .align-element {
+    @apply mx-auto max-w-7xl  px-8;
+  }
+  .icons {
+    @apply h-9 w-9 text-stone-700;
+  }
+  .icon-hover:hover {
+    @apply text-black duration-300;
+  }
+  .button {
+    @apply text-stone-100 rounded-xl px-5 py-3 flex bg-stone-800 items-center gap-3;
+  }
+  .button-hover:hover {
+    @apply -translate-y-1 scale-110 bg-stone-900 duration-300;
+  }
+}
+
+@layer base {
+  li {
+    @apply list-none;
+  }
+}
