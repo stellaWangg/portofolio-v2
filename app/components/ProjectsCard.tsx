@@ -33,7 +33,9 @@ function ProjectCard({
         />
       </div>
       {/* tags */}
-      <h3 className="text-2xl font-semibold h-8 text-accent">{title}</h3>
+      <h3 className="h-15 text-2xl font-semibold sm:h-8 text-accent ">
+        {title}
+      </h3>
       {tags && tags.length > 0 && (
         <div className="flex flex-wrap flex-grow gap-2 ">
           {tags.map((tag, index) => (
