@@ -31,8 +31,8 @@ export const projects = [
     img: dataVis,
     description:
       "A web-based data visualization website for human rights issues. Data visualization handled by using D3 library.",
-    siteURL: "https://www.whatsnxt.org/",
-    github: "https://github.com/artsycoder533/whats-nxt",
+    siteURL: "https://datavisstella.web.app/",
+    github: "https://github.com/stellaWangg/Dataviz-project",
   },
   {
     id: 3,
