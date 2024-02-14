@@ -4,10 +4,10 @@ import Form from "./Form";
 import ContactHero from "./ContactHero";
 function Contact() {
   return (
-    <div className="bg-stone-200" id="contact">
-      <section className="align-element pt-20 flex pb-32  lg:gap-60">
+    <div className="bg-stone-200 pt-20 pb-32" id="contact">
+      <section className="align-element flex lg:gap-x-60">
         <ContactHero />
-        <div className="max-w-[1400px] flex flex-col w-[95vw] ">
+        <div className="flex flex-col w-[90vw] ">
           <Title title="Contact Me" />
           <Form />
         </div>

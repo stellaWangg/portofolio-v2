@@ -8,7 +8,7 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaBlog } from "react-icons/fa";
 const ContactHero = () => {
   return (
     <div className=" flex mx-auto">
-      <div className="hidden xl:block max-w-[450px]  flex-col w-[80vw]">
+      <div className="hidden xl:block max-w-[450px] w-[70vw]">
         <Image src={saly} className="" alt={"contact-img"} />
         <div className="flex gap-x-10 mt-5 justify-center mx-auto">
           <Link href="https://github.com/stellaWangg" target="_blank">

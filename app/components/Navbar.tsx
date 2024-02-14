@@ -1,6 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import Link from "next/link";
+import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 const navItems = [
   { text: "Home", path: "/" },
@@ -11,56 +10,48 @@ const navItems = [
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  useEffect(() => {
-    if (open) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflowY = "auto";
-    }
-
-    return () => {
-      document.body.style.overflowY = "auto";
-    };
-  }, [open]);
+  const handleOpen = () => {
+    setOpen(!open);
+  };
   return (
-    <div className="bg-stone-300 sticky top-0 z-50">
-      <nav className="align-element flex flex-col md:flex-row  items-center justify-between">
-        <div className="flex items-center justify-between w-full md:w-auto py-4">
-          <h2 className="text-3xl font-bold">✦tella</h2>
-          <div
-            onClick={() => setOpen(!open)}
-            className="md:hidden cursor-pointer "
-          >
-            <FaBars className="w-11 h-11" />
-          </div>
+    <nav className="align-element flex flex-col md:flex-row  items-center justify-between">
+      <div className="flex items-center justify-between w-full md:w-auto py-4">
+        <h2 className="text-3xl font-bold">
+          <a href="/">✦tella</a>
+        </h2>
+        <div onClick={handleOpen} className="md:hidden cursor-pointer ">
+          {open ? (
+            <FaBars className="rotate-90" size={45} />
+          ) : (
+            <FaBars size={45} />
+          )}
         </div>
+      </div>
 
-        <div
-          className={
-            `flex gap-x-10 flex-col md:flex-row gap-12 items-center w-full md:w-auto absolute md:static top-[70px] h-[calc(100vh-70px)] left-0 right-0 md:h-auto transition-all ease-in-out duration-500 ` +
-            (open
-              ? "translate-x-0 bg-stone-300"
-              : "translate-x-[100vh] md:translate-x-0")
-          }
-        >
-          {navItems.map((item, index) => {
-            const { text, path } = item;
-            return (
-              <li key={index}>
-                <Link
-                  className="capitalize font-semibold text-lg tracking-wide hover:text-stone-700 duration-300"
-                  href={path}
-                  scroll={true}
-                  onClick={() => setOpen(false)}
-                >
-                  {text}
-                </Link>
-              </li>
-            );
-          })}
-        </div>
-      </nav>
-    </div>
+      <ul
+        className={
+          `flex gap-x-10 flex-col md:flex-row gap-12 items-center w-full md:w-auto absolute md:static top-[70px] h-[calc(100vh-70px)] left-0 right-0 md:h-auto transition-all ease-in-out duration-500 ` +
+          (open
+            ? "translate-x-0 bg-stone-300"
+            : "left-[-100%] md:translate-x-0")
+        }
+      >
+        {navItems.map((item, index) => {
+          const { text, path } = item;
+          return (
+            <li key={index}>
+              <a
+                className="capitalize font-semibold text-lg tracking-wide hover:text-stone-700 duration-300"
+                href={path}
+                onClick={() => setOpen(false)}
+              >
+                {text}
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    </nav>
   );
 };
 

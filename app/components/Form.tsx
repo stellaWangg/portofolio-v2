@@ -27,7 +27,7 @@ function Form() {
       setSubmissionSuccess(true);
       setTimeout(() => {
         setSubmissionSuccess(false);
-      }, 5000);
+      }, 3000);
     }
   }, [state.succeeded]);
 
@@ -42,7 +42,7 @@ function Form() {
   };
 
   return (
-    <form className=" space-y-6 max-w-[500px]" onSubmit={handleSubmit}>
+    <form className="space-y-6 max-w-[500px]" onSubmit={handleSubmit}>
       <div className="flex flex-col w-full">
         <label htmlFor="name" className="font-medium mb-2">
           Name*:
@@ -57,8 +57,8 @@ function Form() {
           onChange={handleChange}
         />
       </div>
-      <div className="flex flex-col w-full">
-        <label htmlFor="email" className="font-medium mb-2">
+      <div className="flex flex-col">
+        <label htmlFor="email" className="font-medium mb-2 w-full">
           Email*:
         </label>
         <input
