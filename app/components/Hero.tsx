@@ -1,7 +1,6 @@
 import React from "react";
 import heroImg from "../heroImg.svg";
 import Image from "next/image";
-import Link from "next/link";
 import {
   FaGithubSquare,
   FaLinkedin,
@@ -32,9 +31,9 @@ const Hero = () => {
             </a>
           </div>
           <div className="mt-10 flex flex-row gap-4">
-            <Link href="#projects" className="button button-hover">
+            <a href="#projects" className="button button-hover">
               View Projects <FaArrowAltCircleDown />
-            </Link>
+            </a>
           </div>
         </article>
         <article className="hidden md:block ">
