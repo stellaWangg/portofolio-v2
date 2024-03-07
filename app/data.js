@@ -11,7 +11,7 @@ export const projects = [
     tags: [
       "React",
       "React Router v6",
-      "Context API",
+      "API development",
       "Styled Components",
       "Auth0",
       "Stripe",
@@ -27,7 +27,7 @@ export const projects = [
   {
     id: 2,
     title: "Human Rights DataViz Project",
-    tags: ["React", "Stripe", "JavaScript", "D3", "Blender", "Three"],
+    tags: ["React", "JavaScript", "D3", "Blender", "Three", "Gist"],
     img: dataVis,
     description:
       "A web-based data visualization website for human rights issues. Data visualization handled by using D3 library.",
