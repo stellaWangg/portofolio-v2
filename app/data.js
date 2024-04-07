@@ -3,8 +3,18 @@ import dataVis from "../public/images/dataVis.png";
 import evo from "../public/images/evo-soft.jpeg";
 import argos from "../public/images/argos.png";
 import movie from "../public/images/documentary.png";
-
+import cofe from "../public/images/cofeco-home.png";
 export const projects = [
+  {
+    id: 6,
+    title: "Cork Female Coders",
+    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Formspree"],
+    img: cofe,
+    description:
+      "A responsive website serves as a central hub for community engagement, providing information on upcoming meet-ups, valuable IT-related talks, and resources to support women coders at all stages of their careers.",
+    siteURL: "*",
+    github: "https://github.com/stellaWangg/cofecoders",
+  },
   {
     id: 1,
     title: "Fanghua E-commerce",
@@ -12,6 +22,7 @@ export const projects = [
       "React",
       "React Router v6",
       "API development",
+      "Serverless function",
       "Styled Components",
       "Auth0",
       "Stripe",
