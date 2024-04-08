@@ -12,7 +12,7 @@ export const projects = [
     img: cofe,
     description:
       "A responsive website serves as a central hub for community engagement, providing information on upcoming meet-ups, valuable IT-related talks, and resources to support women coders at all stages of their careers.",
-    siteURL: "*",
+    siteURL: "https://cofecoders.netlify.app",
     github: "https://github.com/stellaWangg/cofecoders",
   },
   {
