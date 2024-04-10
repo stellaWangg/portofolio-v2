@@ -4,10 +4,10 @@ import { FaBars } from "react-icons/fa";
 import logo from "../logo.svg";
 import Image from "next/image";
 const navItems = [
-  { text: "Projects", path: "#projects" },
-  { text: "Skills", path: "#skills" },
-  //   { text: "About", path: "#about" },
-  { text: "Contact", path: "#contact" },
+  { text: "Projects", path: "/#projects" },
+  { text: "Skills", path: "/#skills" },
+  { text: "About", path: "/about" },
+  { text: "Contact", path: "/#contact" },
 ];
 
 const Navbar = () => {

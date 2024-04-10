@@ -16,7 +16,7 @@ const Hero = () => {
             Stella Wang
           </h1>
           <p className="mt-4 text-3xl text-stone-800 capitalize tracking-wide">
-            Full Stack Developer
+            Full-stack / Front-end Developer
           </p>
           <p className="mt-2 text-lg text-stone-700 capitalize tracking-wide">
             I&apos;m An Experienced Web developer. I like making fun,

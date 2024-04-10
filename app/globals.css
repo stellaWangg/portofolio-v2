@@ -24,4 +24,7 @@
   li {
     @apply list-none;
   }
+  ::selection {
+    background: #00fa9a;
+  }
 }
