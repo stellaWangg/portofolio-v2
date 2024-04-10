@@ -12,15 +12,15 @@ const Hero = () => {
       <div className="align-element grid md:grid-cols-2 items-center gap-8">
         <article>
           <h1 className="text-7xl text-stone-900 font-bold tracking-wider">
-            Hello, I&apos;m {""}
+            Hello, I'm {""}
             Stella Wang
           </h1>
           <p className="mt-4 text-3xl text-stone-800 capitalize tracking-wide">
             Full-stack / Front-end Developer
           </p>
           <p className="mt-2 text-lg text-stone-700 capitalize tracking-wide">
-            I&apos;m An Experienced Web developer. I like making fun,
-            interactive things with code.
+            I'm An Experienced Web developer. I like making fun, interactive
+            things with code.
           </p>
           <div className="flex gap-x-4 mt-10">
             <a href="#">
