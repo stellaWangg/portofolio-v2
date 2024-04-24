@@ -19,8 +19,8 @@ const Hero = () => {
             Full-stack / Front-end Developer
           </p>
           <p className="mt-2 text-lg text-stone-700 capitalize tracking-wide">
-            I'm An Experienced Web developer. I like making fun, interactive
-            things with code.
+            I'm An Experienced Web developer. I love crafting digital user
+            experiences that people enjoy through understanding and empathy.
           </p>
           <div className="flex gap-x-4 mt-10">
             <a href="#">
