@@ -3,11 +3,11 @@ import {
   SiNextdotjs,
   SiTailwindcss,
   SiTypescript,
+  SiJavascript,
   SiAmazonrds,
-  SiBlender,
-  SiFirebase,
+  SiMysql,
 } from "react-icons/si";
-import { FaReact, FaHtml5, FaJs, FaGitAlt } from "react-icons/fa";
+import { FaReact, FaHtml5, FaGitAlt, FaNode } from "react-icons/fa";
 import Title from "./Title";
 
 const Skills = () => {
@@ -20,17 +20,18 @@ const Skills = () => {
           <p>Next.js</p>
         </div>
         <div className="flex flex-col items-center gap-1 text-center">
+          <FaReact className="text-7xl" />
+          <p>React Native</p>
+        </div>
+        <div className="flex flex-col items-center gap-1 text-center">
           <FaHtml5 className="text-7xl" />
           <p>HTML5</p>
         </div>
         <div className="flex flex-col items-center gap-1 text-center">
-          <FaJs className="text-7xl" />
+          <SiJavascript className="text-7xl" />
           <p>JavaScript</p>
         </div>
-        <div className="flex flex-col items-center gap-1 text-center">
-          <FaReact className="text-7xl" />
-          <p>React Native</p>
-        </div>
+
         <div className="flex flex-col items-center gap-1 text-center">
           <SiTypescript className="text-7xl" />
           <p>TypeScript</p>
@@ -43,17 +44,18 @@ const Skills = () => {
           <SiAmazonrds className="text-7xl" />
           <p>RESTful API</p>
         </div>
+
+        <div className="flex flex-col items-center gap-1 text-center">
+          <FaNode className="text-7xl" />
+          <p>Node.js</p>
+        </div>
+        <div className="flex flex-col items-center gap-1 text-center">
+          <SiMysql className="text-7xl" />
+          <p>MySQL</p>
+        </div>
         <div className="flex flex-col items-center gap-1 text-center">
           <FaGitAlt className="text-7xl" />
           <p>Git</p>
-        </div>
-        <div className="flex flex-col items-center gap-1 text-center">
-          <SiFirebase className="text-7xl" />
-          <p>Firebase</p>
-        </div>
-        <div className="flex flex-col items-center gap-1 text-center">
-          <SiBlender className="text-7xl" />
-          <p>Blender</p>
         </div>
       </div>
     </section>

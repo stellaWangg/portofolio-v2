@@ -13,17 +13,17 @@ const About = () => {
           <h1 className="text-5xl text-center sm:text-6xl lg:text-7xl text-stone-900 font-bold tracking-wider">
             About Me
           </h1>
-          <p className="mt-3 text-xl font-semibold lg:text-3xl text-center  text-stone-800 capitalize tracking-wide">
+          {/* <p className="mt-3 text-xl font-semibold lg:text-3xl text-center  text-stone-800 capitalize tracking-wide">
             Full-stack / Front-end Developer
-          </p>
+          </p> */}
           <p className="mt-2 text-lg text-stone-700 tracking-wide">
-            Hi! My name is Stella. I love turning my passion for human rights
-            and my experience as a woman of color into impactful digital
-            creations through coding and design, aiming for better societal
-            change. With a BA in Translation and a MSc in Interactive Media, I
-            can seamlessly blend linguistics with technology. My fluency in
-            English, Chinese, and Japanese gives me cross-cultural communication
-            skill and multicultural perspective.
+            Hi! This is Stella. With a BA in Translation and a MSc in
+            Interactive Media, I can seamlessly blend linguistics with
+            technology. My fluency in English, Chinese, and Japanese gives me
+            cross-cultural communication skill and multicultural perspective. I
+            love turning my passion for human rights and my experience as a
+            woman of color into impactful digital creations through coding and
+            design, aiming for better societal change.
           </p>
           <p className="mt-2 text-lg text-stone-700 tracking-wide">
             I'm currently volunteering as a front-end developer at{" "}
