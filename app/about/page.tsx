@@ -1,6 +1,7 @@
 import React from "react";
 import aboutImg from "../about/about.png";
 import Image from "next/image";
+import Link from "next/link";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 const About = () => {
   return (
@@ -27,31 +28,31 @@ const About = () => {
           </p>
           <p className="mt-2 text-lg text-stone-700 tracking-wide">
             I'm currently volunteering as a front-end developer at{" "}
-            <a
+            <Link
               href="https://cofecoders.netlify.app/"
               target="_blank"
               className="underline"
             >
               Cork Female Coders
-            </a>
+            </Link>
             , fostering a supportive and inclusive community for female coders.
           </p>
           <div className="flex gap-x-4 mt-6">
-            <a href="#">
+            <Link href="https://github.com/stellaWangg">
               <FaGithubSquare className="icons icon-hover" />
-            </a>
-            <a href="#">
+            </Link>
+            <Link href="https://www.linkedin.com/in/stellawangg/">
               <FaLinkedin className="icons icon-hover" />
-            </a>
+            </Link>
           </div>
           <div className="mt-8 flex flex-row gap-4">
-            <a
+            <Link
               href="https://stellawangg.github.io/Stella_Wang_CV.pdf"
               className="button button-hover"
               target="_blank"
             >
               View Resume
-            </a>
+            </Link>
           </div>
         </article>
       </div>

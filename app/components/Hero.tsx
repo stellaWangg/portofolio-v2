@@ -1,6 +1,7 @@
 import React from "react";
 import heroImg from "../heroImg.svg";
 import Image from "next/image";
+import Link from "next/link";
 import {
   FaGithubSquare,
   FaLinkedin,
@@ -23,17 +24,17 @@ const Hero = () => {
             experiences that people enjoy through understanding and empathy.
           </p>
           <div className="flex gap-x-4 mt-10">
-            <a href="#">
+            <Link href="https://github.com/stellaWangg">
               <FaGithubSquare className="icons icon-hover" />
-            </a>
-            <a href="#">
+            </Link>
+            <Link href="https://www.linkedin.com/in/stellawangg/">
               <FaLinkedin className="icons icon-hover" />
-            </a>
+            </Link>
           </div>
           <div className="mt-10 flex flex-row gap-4">
-            <a href="#projects" className="button button-hover">
+            <Link href="#projects" className="button button-hover">
               View Projects <FaArrowAltCircleDown />
-            </a>
+            </Link>
           </div>
         </article>
         <article className="hidden md:block ">
