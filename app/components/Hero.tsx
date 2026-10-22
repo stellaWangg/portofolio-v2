@@ -17,11 +17,12 @@ const Hero = () => {
             Stella Wang
           </h1>
           <p className="mt-4 text-3xl text-stone-800 capitalize tracking-wide">
-            Full-stack / Front-end Developer
+            Full-stack Engineer
           </p>
           <p className="mt-2 text-lg text-stone-700 capitalize tracking-wide">
-            I'm An Experienced Web developer. I love crafting digital user
-            experiences that people enjoy through understanding and empathy.
+            I'm An Experienced Full-stack Engineer & GenAI Developer. I love
+            crafting digital user experiences that people enjoy through
+            understanding and empathy.
           </p>
           <div className="flex gap-x-4 mt-10">
             <Link href="https://github.com/stellaWangg">
