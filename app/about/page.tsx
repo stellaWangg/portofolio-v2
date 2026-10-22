@@ -14,9 +14,6 @@ const About = () => {
           <h1 className="text-5xl text-center sm:text-6xl lg:text-7xl text-stone-900 font-bold tracking-wider">
             About Me
           </h1>
-          {/* <p className="mt-3 text-xl font-semibold lg:text-3xl text-center  text-stone-800 capitalize tracking-wide">
-            Full-stack / Front-end Developer
-          </p> */}
           <p className="mt-2 text-lg text-stone-700 tracking-wide">
             Hi! This is Stella. With a BA in Translation and a MSc in
             Interactive Media, I can seamlessly blend linguistics with
@@ -27,15 +24,9 @@ const About = () => {
             design, aiming for better societal change.
           </p>
           <p className="mt-2 text-lg text-stone-700 tracking-wide">
-            I'm currently volunteering as a front-end developer at{" "}
-            <Link
-              href="https://cofecoders.netlify.app/"
-              target="_blank"
-              className="underline"
-            >
-              Cork Female Coders
-            </Link>
-            , fostering a supportive and inclusive community for female coders.
+            I'm currently working as a Full-stack Engineer at Marsh Innovation
+            Centre. Shipping enterprise-level applications and building
+            AI-powered solutions for clients.
           </p>
           <div className="flex gap-x-4 mt-6">
             <Link href="https://github.com/stellaWangg">
